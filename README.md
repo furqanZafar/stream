@@ -15,13 +15,6 @@ A [testsuite](https://github.com/juliangruber/stream/blob/master/test.html) for 
 Installation
 ------------
 
-Install with [component(1)](https://github.com/component/component)
-
-```bash
-$ component install juliangruber/stream
-```
-or
-
 ```
 $ npm install stream
 ```

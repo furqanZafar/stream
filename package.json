@@ -18,8 +18,22 @@
   "dependencies": {
     "emitter-component": "^1.1.1"
   },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "emitter": "global:Emitter"
+  },
   "devDependencies": {
+    "browserify": "^13.0.1",
+    "browserify-shim": "^3.8.12",
+    "expect.js": "*",
+    "gulp": "^3.9.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.3",
     "mocha": "*",
-    "expect.js": "*"
+    "vinyl-source-stream": "^1.1.0"
   }
 }
