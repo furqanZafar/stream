@@ -5,7 +5,7 @@ require! \gulp-uglify
 source = require \vinyl-source-stream
 
 gulp.task \dist, ->
-    browserify standalone: \transpilation, debug: false
+    browserify standalone: \stream, debug: false
         .add <[./index.js]>
         .exclude \emitter
         .bundle!
