@@ -14,8 +14,12 @@ A [testsuite](https://github.com/juliangruber/stream/blob/master/test.html) for 
 
 Installation
 ------------
-
 ```
+<script type="text/javascript" src="https://cdn.rawgit.com/furqanZafar/stream/master/dist/index.min.js"></script>
+```
+
+or
+
 $ npm install stream
 ```
 
